@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #000000, #9b59b6);
+}
+.hiba2{
+background-color: #8a4a7d;
+height: 450px;
+width: 300px;
+border-radius: 10px;
+box-shadow: 10px 10px 15px rgba(133, 15, 207, 0.918),
+            -10px -10px 15px rgba(98, 13, 202, 0.918);
+padding: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.hiba3 input{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    margin-bottom: -50px;
+}
+h1{
+    color: white;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-align: center;
+   
+}
+
+.hiba4 input{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    ;
+  }
+
+.hiba3 label{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+   
+    display: block;
+   margin-top: 10px;
+    letter-spacing: 1px;
+
+
+}
+
+.hiba4 label{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+  margin-top: 10px;
+    letter-spacing: 1px;
+}
+.hiba5 input{
+    width: 20px;
+    height: 20px;
+    accent-color: #9b59b6;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.hiba6 button{
+    margin-top: 30px;
+    width: 200px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #9b59b6;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+   
+}
+.hiba6 button:hover{
+    background-color: #846193;
+    box-shadow: 0 0 10px rgba(53, 11, 179, 0.409);
+}
+.hiba2 input:hover{
+    border-bottom: #1605d2 solid 2px;
+}
